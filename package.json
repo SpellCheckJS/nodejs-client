@@ -1,0 +1,24 @@
+{
+  "name": "spellcheckjs",
+  "version": "1.0.0",
+  "description": "NodeJS client for SpellCheckJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpellCheckJS/nodejs-client.git"
+  },
+  "keywords": [
+    "spellcheck",
+    "github",
+    "spellcheckjs"
+  ],
+  "author": "SpellCheckJS",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/SpellCheckJS/nodejs-client/issues"
+  },
+  "homepage": "https://github.com/SpellCheckJS/nodejs-client#readme"
+}
