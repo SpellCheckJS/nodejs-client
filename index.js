@@ -19,6 +19,21 @@ const applyCorrections=function(input) {
     });
     return output;
 };
+const isCorrectlySpelled=function(input) {
+    try {
+        Object.keys(db).forEach(entryName => {
+            let entry=db[entryName];
+            if(input.includes(entryName)) {
+                throw new Error();
+            };
+            // This while loop is where the biggest risk is. With a malicious entry, a user could dOS clients by repetitively increasing input length. Thus the need for thorough submission review.
+        });
+        return true
+    }
+    catch(e) {
+        return false;
+    }
+}
 const SpellCheckJS={
     db,
     applyCorrections
