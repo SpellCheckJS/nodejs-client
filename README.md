@@ -2,7 +2,7 @@
 The NodeJS client for SpellCheckJS
 ## Installation
 ```
-npm i --save https://api.github.com/repos/SpellCheckJS/nodejs-client/tarball
+npm i --save SpellCheckJS/nodejs-client
 ```
 ## Usage
 ```javascript
