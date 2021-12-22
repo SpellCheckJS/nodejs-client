@@ -4,7 +4,8 @@
   "description": "NodeJS client for SpellCheckJS",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "curl https://raw.githubusercontent.com/SpellCheckJS/SpellCheckJS/main/spellcheck.json --output spellcheck.json"
   },
   "repository": {
     "type": "git",
