@@ -1,5 +1,4 @@
-const fs=require("fs");
-const db=JSON.parse(fs.readFileSync("spellcheck.json").toString());
+const db=require("@spellcheckjs/spellcheckjs");
 const applyCorrections=function(input) {
     let output=input;
     let loopCount=0;
